@@ -5,3 +5,5 @@
 4) Все файлы с расширением ".tfvars" и ".tfvars.json" в любой директории проекта.
 5) Файлы "override.tf", "override.tf.json" в любой директории проекта. Файлы, в которых содержится название "_override.tf" и "_override.tf.json".
 6) Файлы ".terraformrc", "terraform.rc" в любой директории проекта.
+
+# devops-netology #
