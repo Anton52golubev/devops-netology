@@ -7,3 +7,5 @@
 6) Файлы ".terraformrc", "terraform.rc" в любой директории проекта.
 
 # devops-netology #
+
+Работы с Git через PyCharm 
