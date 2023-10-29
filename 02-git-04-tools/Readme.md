@@ -2,17 +2,23 @@
 ## Ответ:
 Полный хэш - "aefead2207ef7e2aa5dc81a34aedf0cad4c32545"
 Комментарий коммита - "Update CHANGELOG.md"
+Команда - "git show aefea"
 	
 ## 2) Какому тегу соответствует коммит 85024d3?
-## Ответ: v0.12.23
+## Ответ:
+v0.12.23
+Команда - "git show -s 85024d3"
 
 ## 3) Сколько родителей у коммита b8d720? Напишите их хеши.
 ## Ответ:
 "56cd7859e05c36c06b56d013b55a252d0bb7e158"
 "9ea88f22fc6269854151c571162c5bcf958bee2b"
+Команда - "git show --pretty=%P b8d720"
 
 ## 4) Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами v0.12.23 и v0.12.24.
 ## Ответ:
+Команда - "git show -s v0.12.23..v0.12.24"
+
 commit 33ff1c03bb960b332be3af2e333462dde88b279e (tag: v0.12.24)
 Author: tf-release-bot <terraform@hashicorp.com>
 Date:   Thu Mar 19 15:04:05 2020 +0000
@@ -138,6 +144,7 @@ Date:   Thu Mar 5 21:12:06 2020 +0000
 ## 5) Найдите коммит, в котором была создана функция func providerSource, её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы).
 ## Ответ:
 8c928e83589d90a031f811fae52a81be7153e82f
+Команда - "git log -S "func providerSource(""
 
 ## 6) Найдите все коммиты, в которых была изменена функция globalPluginDirs.
 ## Ответ:
@@ -147,7 +154,13 @@ Date:   Thu Mar 5 21:12:06 2020 +0000
 66ebff90cd move some more plugin search path logic to command
 8364383c35 Push plugin discovery down into command package
 
+Команда - "git grep "func globalPluginDirs(" - находим файл с данной функцией"
+          "git log -s -L :globalPluginDirs:plugins.go --oneline - находим коммит
+
 ## 7) Кто автор функции synchronizedWriters?
 ## Ответ
 Martin Atkins <mart@degeneration.co.uk>
+
+Команда - "git log -S"func synchronizedWriters(" - ищем коммит"
+          "git show 5ac311e2a91e381e2f52234668b49ba670aa0fe5 - просматриваем коммит и смотрим автора"
 
