@@ -1,18 +1,18 @@
-1) Найдите полный хеш и комментарий коммита, хеш которого начинается на aefea.
-Ответ:
+## 1) Найдите полный хеш и комментарий коммита, хеш которого начинается на aefea.
+## Ответ:
 Полный хэш - "aefead2207ef7e2aa5dc81a34aedf0cad4c32545"
 Комментарий коммита - "Update CHANGELOG.md"
 	
-2) Какому тегу соответствует коммит 85024d3?
-Ответ: v0.12.23
+## 2) Какому тегу соответствует коммит 85024d3?
+## Ответ: v0.12.23
 
-3) Сколько родителей у коммита b8d720? Напишите их хеши.
-Ответ:
+## 3) Сколько родителей у коммита b8d720? Напишите их хеши.
+## Ответ:
 "56cd7859e05c36c06b56d013b55a252d0bb7e158"
 "9ea88f22fc6269854151c571162c5bcf958bee2b"
 
-4) Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами v0.12.23 и v0.12.24.
-Ответ:
+## 4) Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами v0.12.23 и v0.12.24.
+## Ответ:
 commit 33ff1c03bb960b332be3af2e333462dde88b279e (tag: v0.12.24)
 Author: tf-release-bot <terraform@hashicorp.com>
 Date:   Thu Mar 19 15:04:05 2020 +0000
@@ -135,18 +135,19 @@ Date:   Thu Mar 5 21:12:06 2020 +0000
 
     Cleanup after v0.12.23 release
 
-5) Найдите коммит, в котором была создана функция func providerSource, её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы).
-Ответ:
+## 5) Найдите коммит, в котором была создана функция func providerSource, её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы).
+## Ответ:
 8c928e83589d90a031f811fae52a81be7153e82f
 
-6) Найдите все коммиты, в которых была изменена функция globalPluginDirs.
-Ответ:
+## 6) Найдите все коммиты, в которых была изменена функция globalPluginDirs.
+## Ответ:
 78b1220558 Remove config.go and update things using its aliases
 52dbf94834 keep .terraform.d/plugins for discovery
 41ab0aef7a Add missing OS_ARCH dir to global plugin paths
 66ebff90cd move some more plugin search path logic to command
 8364383c35 Push plugin discovery down into command package
 
-7) Кто автор функции synchronizedWriters?
+## 7) Кто автор функции synchronizedWriters?
+## Ответ
 Martin Atkins <mart@degeneration.co.uk>
 
