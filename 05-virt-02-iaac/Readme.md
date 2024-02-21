@@ -49,7 +49,7 @@ ansible 2.9.27
   executable location = /usr/bin/ansible
   python version = 2.7.5 (default, Nov 14 2023, 16:14:06) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
 
-![vm](.images/z3.png)
+![vm](images/z3.png)
 
 
 ## Задача 4 
@@ -68,4 +68,4 @@ docker ps,
 [golubevnn@vm-1 ~]$ sudo docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 
-![docker](.images/z4.png)
+![docker](images/z4.png)
