@@ -71,17 +71,17 @@ Hey, Netology
 - Добавьте ещё один файл в папку ```/data``` на хостовой машине.
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
 
-## Задача 4 (*)
+### Ответ
 
-Воспроизведите практическую часть лекции самостоятельно.
-
-Соберите Docker-образ с Ansible, загрузите на Docker Hub и пришлите ссылку вместе с остальными ответами к задачам.
-
-
----
-
-### Как cдавать задание
-
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-
----
+docker pull centos:7
+docker pull debian:latest
+docker run -v /data:/data --name debian debian:latest
+docker run -v /data:/data --name centos centos:7
+docker exec -it debian bash
+touch /data/centos_file
+^D
+touch /data/host_file
+docker exec -it debian bash
+^D
+ls /data
+centos_file  host_file
