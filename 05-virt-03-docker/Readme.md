@@ -22,7 +22,7 @@ Hey, Netology
 
 ### Ответ
 
-[https://hub.docker.com/r/golubevnn/05-virt-03-docker](https://hub.docker.com/r/golubevnn/05-virt-03-docker)
+[https://hub.docker.com/r/golubevnn/task1](https://hub.docker.com/repository/docker/golubevnn/task1/general)
 
 
 ## Задача 2
