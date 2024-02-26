@@ -80,10 +80,8 @@ docker run -v /data:/data --name debian debian:latest
 docker run -v /data:/data --name centos centos:7
 docker exec -it debian bash
 touch /data/centos_file
-^D
 touch /data/host_file
 docker exec -it debian bash
-^D
 ls /data
 centos_file  host_file
 ```
