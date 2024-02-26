@@ -73,6 +73,7 @@ Hey, Netology
 
 ### Ответ
 
+```
 docker pull centos:7
 docker pull debian:latest
 docker run -v /data:/data --name debian debian:latest
@@ -85,3 +86,4 @@ docker exec -it debian bash
 ^D
 ls /data
 centos_file  host_file
+```
